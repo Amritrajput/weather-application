@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let playAgain = yes
+while(playAgain==='yes'){
+alert("you wake up in the dark forest!")
+let userChoice=prompt("do you want to go left or right")
+if(userChoice==='left'){
+    alert("you see something shiny in the mud!")
+    userChoice =  prompt("do you pick it up? (yes or no)");
+    if(userChoice==='yes'){
+        alert("it is a magical stone ! tou are teleported to safety, you win!")
+    }else{
+        alert("you died")
+    }
+}else{
+    alert("you find a cave")
+    userChoice = prompt("do you enter the cave? (yes or no)")
+    if(userChoice === 'yes'){
+        alert("you barely escape!")
+    }else{
+        alert("acha raat bitega")
+    }
+}
+userChoice = prompt("do you want to play again?(yes or no)")
+if(userChoice==='no'){
+    playAgain = 'no';
+    alert("thanks for playing!")
+}
+}
+    </script>
+</body>
+</html>

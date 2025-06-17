@@ -87,3 +87,57 @@
 // console.log(result);
 
 // convert an array of strings into a single comma seprated string
+// let arr = ['2','amrit','singh','rajput']
+// let string = arr.join()
+// console.log(string);
+
+//write a function to flatten a nessted array 1 level deep
+
+// let arr = [1,2,[3,4,4],5,7]
+
+// console.log(arr.flat(1));
+
+// check if all element in an array is number/
+
+// let arr=[1,2,3,4,'jj']
+// function checkNoArr (arr) {
+//     let isNo=true
+// arr.forEach(element => {
+//     if (typeof element !== 'number'){
+//         isNo=false
+//     } 
+   
+// });
+// return isNo
+// }
+// let isAllNo=checkNoArr(arr)
+// console.log(isAllNo);
+  
+
+// ALTERNATIVE METHOD USING EVERY() METHOD
+// let arr=[1,2,3,4]
+// function checkNoArr (arr){
+// let isno=arr.every(e =>
+//     typeof e === 'number')
+//     return isno
+// }
+// let isAllNo=checkNoArr(arr)
+// console.log(isAllNo);
+
+
+// build a simple isprime() function to check if a no is prime
+// function isPrime (num){
+//     if(num==0 || num==1) return false
+//     for (let i=2;i<=Math.sqrt(num);i++){
+//         if(num%i===0) return false
+//     }
+//     return true
+// }
+// console.log(isPrime(17))
+
+//removeDuplicates
+// function removeDuplicates(arr){
+// let set=new Set(arr)
+// return [...set]
+// }
+// console.log(removeDuplicates([1,2,23,3,4,4,5]))

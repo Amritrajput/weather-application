@@ -121,3 +121,30 @@
     
 // }
 // getOccurences(s)
+
+
+
+// program to ind most frequent item in an array
+
+// let arr = [1,2,34,5,1,1,1,4]
+// let frequencyObj = {};
+// function getOccurences(arr){
+//     arr.forEach(letter => {
+//        if(frequencyObj.hasOwnProperty(letter)){
+//         frequencyObj[letter]++
+//        }else{
+//         frequencyObj[letter]=1
+//        }
+//     });
+//     let maxFreq = Math.max(...Object.values(frequencyObj));
+
+//     let ar= Object.entries(frequencyObj)
+//     let filteredArray = ar.filter(entryArr => {
+//        return entryArr[1] === maxFreq;
+        
+//     });
+//     console.log(filteredArray);
+    
+// }
+// getOccurences(arr)
+

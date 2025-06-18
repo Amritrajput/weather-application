@@ -148,3 +148,17 @@
 // }
 // getOccurences(arr)
 
+
+
+//wap to suffle an array
+
+
+let arr = [1,2,4,5,6,7,5]
+for(let index in arr){
+   let randomIndex = Math.floor(Math.random()*arr.length)
+   let temp=arr[index]
+   arr[index]=arr[randomIndex]
+   arr[randomIndex]=temp
+   
+}
+console.log(arr);

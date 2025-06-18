@@ -107,3 +107,17 @@
 
 // write a js fuction to get a number of occurence of each letter in specified string
 
+// let s = 'amrit singh rajput'
+// let obj = {};
+// function getOccurences(string){
+//     string.split('').forEach(letter => {
+//        if(obj.hasOwnProperty(letter)){
+//         obj[letter]++
+//        }else{
+//         obj[letter]=1
+//        }
+//     });
+//     console.log(obj);
+    
+// }
+// getOccurences(s)
